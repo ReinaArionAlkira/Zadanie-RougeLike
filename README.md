@@ -15,7 +15,7 @@ Plansza ma 28x14
 ............................
 ............................
 
-Steguje się bohaterem oznaczonym jako `@`, gracz wpisuje komendy ruchu: up, down, left, right, ew. obsługa strzałek. Gracz posiada 10 HP.
+Steruje się bohaterem oznaczonym jako `@`, gracz wpisuje komendy ruchu: up, down, left, right, ew. obsługa strzałek. Gracz posiada 10 HP.
 
 Na planszy mogą znaleść się potwory, `S` wąż z 2 HP oraz `D` smok 25 HP. Potwory poruszają się w kierunku aktualnej pozycji gracza. Potwory zadają obrażenia równe ich HP.
 
