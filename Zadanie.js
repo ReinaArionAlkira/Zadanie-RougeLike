@@ -8,12 +8,6 @@ board.print = function () {
 legend.print = function () {
     this.forEach(_ => console.log(_));
 }
-/*
-const mob = {
-  position:
-}
-*/
-//const Dragon = Object.create(mob);
 
 //poruszanie się za pomocą strzałek
 var stdin = process.stdin;
@@ -37,7 +31,7 @@ stdin.on('data', function(key){
     if (key == '\u0003') { process.exit(); }    // ctrl-c
 });
 function moveLeft(){
-  console.log('przesuń')
+
 }
 function moveUP(){
   console.log('góra')
@@ -55,3 +49,15 @@ console.log("Witaj w grze RougeLike.\n Sterujesz postacią za pomocą strzałek 
 board.print();
 legend.print();
 //if()
+/*
+wstawienie gracza na planszę
+wstawienie potworów na planszę(losowo)
+przypisanie HP i DMG potworom i graczowi
+efekt zebrania przedmiotu/walki(wejście w pole potwora, jeśli potwór umiera po ataku, jeśli żyje, gracz zostaje w tym samym miejscu)
+
+Ruch gracza (strzałki lub komendy - komenda dopasowana do funkcji funkcja wykonuje ruch)
+ruch potworów (w strone gracza - wyczytywanie pozycji gracza + kierunek do niego + Ruch)
+omijanie ścian (ściana blokuje ruch w nią)
+losowe generowanie broni i efektów
+zakaz przechodzenia przez granice planszy
+*/
