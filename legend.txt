@@ -1,0 +1,11 @@
+Ściany: #
+Gracz: @ 10HP
+
+Smok: D 25HP
+Wąż: S 2HP
+
+Uzdrowienie: h +5HP
+Trucizna: p -5HP
+
+Topór: a 20 DMG
+Sztylet: d 1 DMG
